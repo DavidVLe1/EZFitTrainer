@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EZFitTrainer</string>
+    <string name="txtMainTitle">Welcome to the Fitness Training and Tracking app!</string>
+    <string name="btnEnterApp">Enter</string>
+    <string name="btnViewWorkouts">View Workouts</string>
+    <string name="btnViewTimer">View Timer</string>
+    <string name="btnViewRecords">View Data</string>
+    <string name="imgWorkouticon">Workout image</string>
+    <string name="imgViewTimer">Stopwatch Image</string>
+    <string name="btnStopTimer">Stop</string>
+    <string name="btnStartTimer">Start</string>
+    <string name="btnReset">Reset</string>
+    <string name="txtDefaultTimer">00:00:00</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnViewHistory">View and Update History</string>
+    <string name="btnCalorieCalculator">Calorie Calculator</string>
+    <string name="imgChecklist">Checklist img</string>
+    <string name="txtCalculatorText">Please fill out all the boxes to calculate your total calories burned</string>
+    <string name="radMale">Male</string>
+    <string name="radFemale">Female</string>
+    <string name="txtHeartrate">Heart Rate (BPM)</string>
+    <string name="txtWeight">Weight (lbs)</string>
+    <string name="txtMET">Metabolic Rate equivalent to resting (MET)</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="txtTime">Minutes Exercised</string>
+    <string name="txtMETExplained">*An MET of 4 means exerting four times the energy when resting</string>
+    <string-array name="txtGroup">
+        <item>Full Body</item>
+        <item>Upper Body</item>
+        <item>Lower Body</item>
+        <item>Abs</item>
+    </string-array>
+    <string name="txtTitleWorkoutList">Select type of workout</string>
+    <string name="btnSpecificWorkout">View Selection</string>
+    <string name="txtFullBody">Full Body Workouts</string>
+    <string name="txtCaloriesConsumed">Calories Consumed, Date</string>
+    <string name="txtCaloriesBurned">Calories Burned, Date</string>
+    <string name="btnSaveCaloriesBurned">Save</string>
+    <string name="btnSaveCaloriesConsumed">Save</string>
+    <string name="btnLoad">Load Past Calories</string>
+    <string name="txtCalHistory">Calorie History</string>
+    <string name="radMusicOn">Music On</string>
+    <string name="radMusicOff">Music Off</string>
+
+</resources>

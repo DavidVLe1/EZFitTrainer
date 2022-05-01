@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullBody">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="404dp"
+        android:layout_height="475dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgFullBodyWorks"
+                android:layout_width="397dp"
+                android:layout_height="570dp"
+                android:adjustViewBounds="true"
+                android:background="#EDECE7"
+                android:contentDescription="@string/imgWorkouticon"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/full_body_works_workout" />
+
+            <ImageView
+                android:id="@+id/imgEpicGains"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/epic_gains_workout_fullbody" />
+
+            <ImageView
+                android:id="@+id/imgDopamineBoost"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/dopamine_boost_workout_fullbody" />
+
+            <ImageView
+                android:id="@+id/imgInnerStrength"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/inner_strength_workout_fullbody" />
+
+            <ImageView
+                android:id="@+id/imgMaxHiit"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/maximum_hiit_workout_intro_fullbody" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="365dp"
+        android:layout_height="54dp"
+        android:gravity="bottom|center"
+        android:text="@string/btnViewTimer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

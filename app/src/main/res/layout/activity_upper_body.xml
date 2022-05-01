@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE7"
+    tools:context=".UpperBody">
+
+    <Button
+        android:id="@+id/btnUpperViewTimer"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:text="@string/btnViewTimer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ScrollView
+        android:layout_width="386dp"
+        android:layout_height="570dp"
+        android:contentDescription="@string/imgWorkouticon"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpperViewTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgArmShoulderStretch"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/arms_shoulder_stretch_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgChestArmCore"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/chest_arms_core_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgDefyGravity"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/defy_gravity_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgDuckSwing"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/duck_swing_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgExpanseUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/expanse_workout_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgProBoxerUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/pro_boxer_upperbody" />
+
+            <ImageView
+                android:id="@+id/imgSteadyCardioUpper"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/stead_cardio_upperbody" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDECE7"
+    tools:context=".Abs">
+
+    <Button
+        android:id="@+id/btnAbsViewTimer"
+        android:layout_width="362dp"
+        android:layout_height="48dp"
+        android:text="@string/btnViewTimer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="360dp"
+        android:layout_height="580dp"
+        android:contentDescription="@string/imgWorkouticon"
+        app:layout_constraintBottom_toTopOf="@+id/btnAbsViewTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgComebackAbs"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/comeback_workout_abs" />
+
+            <ImageView
+                android:id="@+id/imgBackupAbs"
+                android:layout_width="wrap_content"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/backup_workout_abs" />
+
+            <ImageView
+                android:id="@+id/imgMasterAbs"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/master_of_abs_workout_abs" />
+
+            <ImageView
+                android:id="@+id/imgSpeedsterAbs"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:contentDescription="@string/imgWorkouticon"
+                app:srcCompat="@drawable/speedster_workout_abs" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
